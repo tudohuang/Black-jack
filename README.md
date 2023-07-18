@@ -5,11 +5,17 @@ Welcome to our simple, text-based Blackjack game, created in Python! 😊
 ## 📖 Game Rules 📖
 
 1️⃣ The game starts with the player holding 1000 chips. 💰
+
 2️⃣ The player bets a certain amount of chips. 🎲
+
 3️⃣ The player and the dealer are each given two cards. The player can see both of their cards, but can only see one of the dealer's cards. 🃏
+
 4️⃣ The player can choose to 'hit' (take another card) or 'stand' (not take another card). The goal is to get as close to 21 as possible without going over. If the player goes over 21, they 'bust' and lose the game. 😮
+
 5️⃣ If the player chooses to 'stand', the dealer will reveal their hidden card and continue to draw cards until they have 17 or more. If the dealer goes over 21, they 'bust' and the player wins. 🥳
+
 6️⃣ If neither the player nor the dealer 'bust', then whoever is closest to 21 wins the game. If it's a tie, it's called a 'push' and no chips are won or lost. 😐
+
 7️⃣ The player can choose to play another round or end the game. 🔄
 
 ## 👀 How to Play 👀

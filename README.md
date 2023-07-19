@@ -1,31 +1,45 @@
-# 🎲 Simple Blackjack Game 🎲
+# 🎲Blackjack Game🎲
 
-Welcome to our simple, text-based Blackjack game, created in Python! 😊
+This is a simple implementation of the Blackjack card game in Python. The player plays against the computer's dealer and tries to get a hand value as close to 21 as possible without exceeding it.
 
-## 📖 Game Rules 📖
+## Prerequisites 📋
 
-1️⃣ The game starts with the player holding 1000 chips. 💰
+- Python 3.x
 
-2️⃣ The player bets a certain amount of chips. 🎲
+## How to Run ▶️
 
-3️⃣ The player and the dealer are each given two cards. The player can see both of their cards, but can only see one of the dealer's cards. 🃏
+1. Clone the repository or download the `blackjack.py` file.
+2. Open a terminal or command prompt.
+3. Navigate to the directory where the `blackjack.py` file is located.
+4. Run the following command:
 
-4️⃣ The player can choose to 'hit' (take another card) or 'stand' (not take another card). The goal is to get as close to 21 as possible without going over. If the player goes over 21, they 'bust' and lose the game. 😮
+   ```
+   python blackjack.py
+   ```
 
-5️⃣ If the player chooses to 'stand', the dealer will reveal their hidden card and continue to draw cards until they have 17 or more. If the dealer goes over 21, they 'bust' and the player wins. 🥳
+## Rules 🃏
 
-6️⃣ If neither the player nor the dealer 'bust', then whoever is closest to 21 wins the game. If it's a tie, it's called a 'push' and no chips are won or lost. 😐
+1. At the beginning of the game, the player is given $100,000 in virtual money.
+2. The player places a bet from their available money.
+3. The player and the dealer are each dealt two cards.
+4. The player's cards are displayed along with their sum.
+5. The dealer's first card is shown, and the sum is hidden.
+6. The player decides whether to add another card or not.
+7. If the player's hand value exceeds 21, they lose the bet.
+8. If the player chooses to stop or their hand value is 21, the dealer reveals their cards.
+9. The dealer keeps drawing cards until their hand value reaches 16 or higher.
+10. If the dealer's hand value exceeds 21 or is lower than the player's hand value, the player wins the bet.
+11. If the player's and dealer's hand values are the same, it's a push (tie).
+12. If the dealer's hand value is higher than the player's, the player loses the bet.
+13. The player's money is updated based on the outcome of the game.
+14. The game continues until the player decides to quit or runs out of money.
 
-7️⃣ The player can choose to play another round or end the game. 🔄
+## Additional Features ➕
 
-## 👀 How to Play 👀
+The game can be customized and expanded with the following features:
 
-This game is designed to run in a Python environment. Copy the code into your Python environment 🐍 and run the program. Follow the prompts in the console to play the game. 💻
+- Implementing a betting system with different bet amounts.
+- Allowing multiple players to participate.
+- Adding graphical user interface (GUI) elements for a more interactive experience.
 
-## 🧐 About Blackjack 🧐
-
-Blackjack is a popular card game played in many casinos. 🎰 The goal is to beat the dealer's hand without going over 21. Face cards are worth 10, Aces are worth 1 or 11, and all other cards are worth their rank. ♣️♥️♠️♦️
-
-## 🎉 Have Fun 🎉
-
-Enjoy the game and good luck beating the dealer! 🥳
+Have fun playing! 🎉🎲

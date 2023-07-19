@@ -92,7 +92,7 @@ while play:
     
   YN = input('Do you want to play again(Y/N)?')
   YN = YN.lower()
-  if YN == 'y':
+  if YN == 'y' and player_money >= 0:
     play = True
   else:
     play = False
